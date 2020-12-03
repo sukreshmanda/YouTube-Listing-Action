@@ -1,4 +1,4 @@
-name: CI
+name: NPM-CREATE
 on:
   workflow_dispatch:
 jobs:
