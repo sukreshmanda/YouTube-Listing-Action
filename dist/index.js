@@ -22,7 +22,7 @@ fs.readFile('list.conf', 'utf8' , function (err,data) {
      let before = dataa.substring(0,dataa.indexOf("<!--LIST-START-->"))
      let after = dataa.substring(dataa.indexOf("<!--LIST-END-->")+15,dataa.length)
      console.log("BEFORE:"+before+" END:"+ after)
-     fs.writeFile('README.md',before+returning+after, function (err) {
+     fs.writeFile('README.md',before+"<!--LIST-START-->"+returning+"<!--LIST-END-->"+after, function (err) {
          if (err) return console.log(err);
           console.log('README.md updated');
      });
