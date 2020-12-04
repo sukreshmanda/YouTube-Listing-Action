@@ -15,5 +15,5 @@ fs.readFile('list.conf', 'utf8' , function (err,data) {
     let source = "<img src=\"https://cdn1.iconfinder.com/data/icons/web-page-and-iternet/90/Web_page_and_internet_icons-04-512.png\" width=\"22px\"> <a href=\""+link+"\">"+text+" </a> <br />"
     returning = returning+source
   }
-  console.log(returning)
+  core.setOutput("statement", returning)
 });
