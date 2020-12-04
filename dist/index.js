@@ -20,7 +20,7 @@ fs.readFile('list.conf', 'utf8' , function (err,data) {
         return console.log(errr)
      }
      let before = dataa.substring(0,dataa.indexOf("<!--LIST-START-->"))
-     let after = dataa.substring(dataa.indexOf("<!--LIST-END-->"))
-     console.log("BEFORE:"+before+" END"+ after)
+     let after = dataa.substring(dataa.indexOf("<!--LIST-END-->")+1,dataa.length)
+     console.log("BEFORE:"+before+" END:"+ after)
   });
 });
