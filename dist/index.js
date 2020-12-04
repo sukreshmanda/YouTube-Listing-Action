@@ -5,5 +5,5 @@ fs.readFile('list.conf', 'utf8' , function (err,data) {
     return console.log(err);
   }
   let array = data.split(os.EOL)
-  console.log(array)
+  console.log(array.length)
 });
