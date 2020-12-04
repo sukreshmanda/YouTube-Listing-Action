@@ -3,7 +3,7 @@ author: "Sukresh Manda"
 description: "Simple GitHub Action for testing purpose"
 runs:
     using: node12
-    main: dist/index.js
+    main: src/index.js
 branding:
     color: "orange"
     icon: "anchor"
