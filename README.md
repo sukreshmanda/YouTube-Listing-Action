@@ -1,6 +1,7 @@
 # URL-Listing-Action
-<img width="30px" src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png">
 GitHub action to list any web links in readme
+
+<img width="30px" src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png">
 
 ### Step1 : Create Comments in readme file to identify where to place links
 
